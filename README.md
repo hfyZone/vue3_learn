@@ -1,12 +1,12 @@
 # vue3_learn
 ## 1 vite启动项目
 ### 1.1 安装nvm
-使用nvm安装npm防止出现mac的权限问题。  
+使用nvm安装nodejs防止出现mac的权限问题。  
 > 参考：https://nvm.p6p.net/install/mac.html
 
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash`
 `source ~/.zprofile`
-### 1.2 安装npm  
+### 1.2 安装nodejs  
 安装最新的nodejs
 `nvm install node`
 ### 1.3 安装vite
