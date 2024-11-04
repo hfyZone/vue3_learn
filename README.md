@@ -30,5 +30,9 @@ npm install
 [package.json](vue-project%2Fpackage.json)里存储了启动方式，[index.html](vue-project%2Findex.html)为初始化页面
 
 ## 2 项目结构
-App.vue文件是根文件，
-main.ts是
+App.vue文件是vue组件根文件，
+main.ts是？？
+自己构建组件后，在App.vue中引入，注册组件
+vue2使用选项式API，vue3新增了组合式API，组合式API将同种类的各种选项集合在一个方法里，降低了代码耦合度；
+## 3 APP.vue
+### 3.1 `<setup>`标签
