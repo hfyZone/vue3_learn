@@ -36,3 +36,15 @@ main.ts是？？
 vue2使用选项式API，vue3新增了组合式API，组合式API将同种类的各种选项集合在一个方法里，降低了代码耦合度；
 ## 3 APP.vue
 ### 3.1 `<setup>`标签
+#### 3.1.1 响应式`ref()`和`reactive()`
+> 项目：  
+> [Person.vue](src%2Fcomponents%2FPerson.vue)  
+> [Car.vue](src%2Fcomponents%2FCar.vue)
+
+响应式基础数据与对象数组使用ref()定义，使用变量.value修改属性值；  
+响应式对象或数组使用reactive()定义，直接访问属性修改，且深度（属性的属性）响应；
+#### 3.1.12 解构响应式 `toRefs()`  `toRef()`
+> 项目：[Sandwich.vue](src%2Fcomponents%2FSandwich.vue)
+
+`toRefs()`将响应式对象的属性值以结构为响应式变量，访问解构的响应式变量用value修改之；
+`toRef()`接受一个对象和对象的值，单独取出此对象的某个属性；

@@ -2,16 +2,22 @@
   <div class="app">
     <h1>CONTENT</h1>
     <Person/>
+    <Car/>
+    <Sandwich/>
   </div>
 </template>
 
 <script lang="ts">
 import Person from "@/components/Person.vue";
+import Car from "@/components/Car.vue";
+import Sandwich from "@/components/Sandwich.vue";
 
 export default {
   name: 'App',// 组件的名字
   components:{// 注册vue组件
-    Person
+    Person,
+    Car,
+    Sandwich
   }
 }
 </script>
