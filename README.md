@@ -43,8 +43,15 @@ vue2使用选项式API，vue3新增了组合式API，组合式API将同种类的
 
 响应式基础数据与对象数组使用ref()定义，使用变量.value修改属性值；  
 响应式对象或数组使用reactive()定义，直接访问属性修改，且深度（属性的属性）响应；
-#### 3.1.12 解构响应式 `toRefs()`  `toRef()`
+#### 3.1.2 解构响应式 `toRefs()`  `toRef()`
 > 项目：[Sandwich.vue](src%2Fcomponents%2FSandwich.vue)
 
 `toRefs()`将响应式对象的属性值以结构为响应式变量，访问解构的响应式变量用value修改之；
 `toRef()`接受一个对象和对象的值，单独取出此对象的某个属性；
+
+#### 3.1.3 `computed()`计算属性
+> 项目：[Name.vue](src%2Fcomponents%2FName.vue)
+
+计算属性所依赖的字段发生变化则自动更新；
+与方法的区别：方法会在每次调用都运行，computed会有缓存优化；
+计算属性默认为只读，如果需要可修改需要加入 `get()set()`函数，并且set接收一个参数为最新修改值。
