@@ -1,5 +1,5 @@
 <template>
-  <div class="car">
+  <div class="car" id="thisCar">
     <p>一辆{{car.brand}}牌子的车，价值{{car.price}}万元</p>
     <button @click="bargain">砍价！</button>
   </div>
