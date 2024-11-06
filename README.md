@@ -70,7 +70,7 @@ vue2使用选项式API，vue3新增了组合式API，组合式API将同种类的
 > _FROM https://github.com/vuejs/core/issues/12333_
 
 **watchEffect**
-不用穿入监控值，自动监控方法里涉及到的所有参数
+不用传入监控值，自动监控方法里涉及到的所有参数
 
 #### 3.1.5 模板中的`ref`
 > 项目：[AnotherCar.vue](src%2Fcomponents%2FAnotherCar.vue)
